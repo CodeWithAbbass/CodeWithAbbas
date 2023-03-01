@@ -1,0 +1,110 @@
+.SidebarMenu {
+    background: #20202a;
+    font-size: 12px;
+    color: #cacace;
+    transition: 0.55s ease-in-out;
+    height: 100vh;
+    width: 85px;
+    position: fixed;
+    right: 16px;
+    top: 14px;
+}
+
+.SidebarMenu.Open {
+    width: 230px;
+}
+
+.SidebarMenu>.SidebarMenu_Hamburger {
+    text-align: center;
+    -webkit-box-shadow: 0 1px 4px 0 rgb(15 15 20 / 10%);
+    box-shadow: 0 1px 4px 0 rgb(15 15 20 / 10%);
+    background: linear-gradient(159deg, rgba(37, 37, 50, .98) 0, rgba(35, 35, 45, .98) 100%);
+    transition: all 0.4s ease-in-out 0s;
+    color: #8c8c8e;
+    font-size: 16px;
+}
+
+.SidebarMenu>.SidebarMenu_Hamburger>i {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    visibility: hidden;
+    opacity: 0;
+    padding: 30px;
+    cursor: pointer;
+    width: 85px;
+    text-align: center;
+    transform: translateX(0px) rotate(180deg);
+    transition: visibility .9s linear .9s, opacity .9s, transform .9s, rotate .9s;
+}
+
+
+.SidebarMenu>.SidebarMenu_Hamburger>i.active {
+    display: inline-block;
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+    transition: visibility .4s linear .4s, opacity .4s, transform .4s, rotate .4s;
+}
+
+.SidebarMenu>.SidebarMenu_Hamburger>i:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.SidebarMenu>.SidebarMenu_Hamburger>.active:hover {
+    color: #fcfcfc;
+    transform: rotate(180deg);
+}
+
+.SidebarMenu>ul>li {
+    color: #8c8c8e;
+    transform: translateX(220px);
+    transition: all 0.7s ease-in-out 0s;
+    padding-left: 2.5rem;
+}
+
+.SidebarMenu>ul>li>a {
+    padding: 7px 30px;
+    display: block;
+    width: 100%;
+    color: #8c8c8e;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.SidebarMenu>ul>li>a.ActiveList,
+.SidebarMenu>ul>li>a:hover {
+    color: #fafafc;
+    text-shadow: 0 0 3px rgb(250 250 252 / 40%);
+}
+
+.SidebarMenu>ul>li.ActiveMenuItem {
+    transform: translateX(0px);
+}
+
+.SidebarMenu>.SidebarMenu_PageName {
+    position: absolute;
+    top: 30%;
+    display: block;
+    width: 100%;
+    margin: auto;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg) translateX(0px);
+    color: #8c8c8e;
+    text-transform: uppercase;
+    transition: all 0.7s ease-in-out 0s;
+    visibility: visible;
+    opacity: 1;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.SidebarMenu>.HidePageName {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(250px) rotate(0deg);
+}

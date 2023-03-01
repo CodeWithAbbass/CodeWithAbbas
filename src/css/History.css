@@ -1,0 +1,85 @@
+.History>.row>.Education_Container>.timeline_container>.timeline_item {
+    position: relative;
+    cursor: text;
+}
+
+.History>.row>.Education_Container>.timeline_container>.timeline_item>.timeline_mark_light {
+    background: #fafafc;
+    position: absolute;
+    top: 4px;
+    right: -4px;
+    width: 23px;
+    height: 23px;
+    opacity: 0;
+    border-radius: 50%;
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+}
+
+
+.History>.row>.Education_Container>.timeline_container>.timeline_item>.timeline_mark {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: solid 3px #ffc107;
+    background: #1e1e28;
+    -webkit-box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+    box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+}
+
+.History>.row>.Education_Container>.timeline_container>.timeline_item>.timeline_content {
+    position: relative;
+    margin-right: 45px;
+    background: linear-gradient(159deg, #2d2d3a 0, #2b2b35 100%);
+    padding: 30px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+    box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+}
+
+.History>.row>.Education_Container>.timeline_container::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    height: calc(100% - 10px);
+    width: 5px;
+    background: #191923;
+}
+
+.History>.row>.Education_Container>.timeline_container>.timeline_item>.timeline_content::after {
+    height: 10px;
+    width: 10px;
+    background-color: rgba(43, 43, 53, .98);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    content: '';
+    position: absolute;
+    top: 11px;
+    right: -5px;
+}
+
+.History>.row>.Education_Container>.timeline_container>.timeline_item>.timeline_content>.content_header>.header_leftside>.header_subtitle {
+    color: #8c8c8e;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.History>.row>.Education_Container>.timeline_container>.timeline_item>.timeline_content>.content_header>.header_rightside>.header_date {
+    margin-left: auto;
+    background: #20202a;
+    padding: 5px 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: inset 0 3px 8px 0 rgb(15 15 20 / 20%);
+    box-shadow: inset 0 3px 8px 0 rgb(15 15 20 / 20%);
+    font-size: 12px;
+}
+
+.History>.row>.Education_Container>.timeline_container>.timeline_item>.timeline_content>.content_description>p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #8c8c8e;
+}

@@ -1,0 +1,20 @@
+.Footer {
+  background: linear-gradient(159deg, #2d2d3a 0, #2b2b35 100%);
+  box-shadow: 0 1px 4px 0 rgb(15 15 20 / 10%);
+  font-size: 12px;
+  font-weight: 400;
+  color: #8c8c8e;
+  transition: 0.55s ease-in-out;
+  z-index: 1;
+  margin-top: auto;
+}
+
+.Footer>.Footer_Email>a {
+  font-size: 12px;
+  color: inherit;
+  transition: 0.3s ease-in-out;
+}
+
+.Footer>.Footer_Email>a:hover {
+  color: #cacace;
+}

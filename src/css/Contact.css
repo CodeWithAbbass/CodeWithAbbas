@@ -1,0 +1,75 @@
+.Contact>.row>.Contact_Col>ul,
+.Contact>form {
+    box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+    background: linear-gradient(159deg, #2d2d3a 0, #2b2b35 100%);
+}
+
+.Contact>.row>.Contact_Col>ul>li {
+    font-size: 13px;
+}
+
+
+.Contact>form>.input_Container>input,
+.Contact>form>.input_Container>textarea {
+    height: 50px;
+    background: linear-gradient(159deg, #252532 0, #23232d 100%);
+    color: #fafafc;
+    padding-left: 65px;
+    padding-right: 15px;
+    -webkit-box-shadow: inset 0 1px 4px 0 rgb(15 15 20 / 10%);
+    box-shadow: inset 0 1px 4px 0 rgb(15 15 20 / 10%);
+    margin-bottom: 0;
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+    outline: 0;
+    font-size: 13px;
+}
+
+.Contact>form>.input_Container>textarea {
+    height: 150px;
+}
+
+.Contact>form>.input_Container>label {
+    color: #8c8c8e;
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    background: #20202a;
+    top: 0;
+    left: 0;
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 50px;
+    font-weight: 500;
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+    cursor: text;
+}
+
+
+.Contact>form>.input_Container>input:focus+label,
+.Contact>form>.input_Container>input:active+label,
+.Contact>form>.input_Container>textarea:focus+label,
+.Contact>form>.input_Container>textarea:active+label {
+    background: #ffc107;
+    color: #20202a;
+}
+
+.Contact>form>.SubmitBtn {
+    text-transform: uppercase;
+    box-shadow: 0 1px 4px 0 rgb(15 15 20 / 10%);
+    color: #20202a;
+    background: #ffc107;
+    letter-spacing: 1.5px;
+    display: inline-flex;
+    height: 45px;
+    line-height: 45px;
+    font-size: 12px;
+    padding: 0 35px;
+    transition: .4s ease-in-out;
+}
+
+.Contact>form>.SubmitBtn:hover {
+    transform: translateY(-2px);
+}

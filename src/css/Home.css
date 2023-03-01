@@ -1,0 +1,141 @@
+.Home {
+    margin-top: 2rem;
+}
+
+.Home>.Home_Banner {
+    background: url('../images/BannerBg.jpg') no-repeat center center;
+    background-size: cover;
+    transform: scale(1);
+    opacity: 1;
+    box-shadow: 0 5px 10px 0 rgb(15 15 20 / 20%);
+    transition: .55s ease-in-out;
+}
+
+.Home>.Home_Banner>.Banner_Back {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    top: -30px;
+    width: 90%;
+    height: 30px;
+    margin-left: 5%;
+    -webkit-box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+    box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: rgba(30, 30, 40, .88);
+}
+
+.Home>.Home_Banner>.Banner_Overlay {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 60px;
+    width: 100%;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(15%, rgba(45, 45, 58, .9)), color-stop(50%, rgba(45, 45, 58, .7)), to(rgba(43, 43, 53, .7)));
+    background-image: linear-gradient(90deg, rgba(45, 45, 58, .9) 15%, rgba(45, 45, 58, .7) 50%, rgba(43, 43, 53, .7) 100%);
+}
+
+.Home>.Home_Banner>.Banner_Overlay>.Banner_Title {
+    width: 100%;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+.Home>.Home_Banner>.Banner_Overlay>.Banner_Title>h1 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.Home>.Home_Banner>.Banner_Overlay>.Banner_Title>.code {
+    color: #fafafc;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-family: "Courier Prime", monospace;
+}
+
+.Home>.Home_Banner>.Banner_Overlay>.Banner_Title>.code>i {
+    color: #ffc107;
+    font-style: normal;
+}
+
+.Home>.Home_Banner>.Banner_Overlay>.Banner_Title>.Banner_Btn>a {
+    text-transform: uppercase;
+    box-shadow: 0 1px 4px 0 rgb(15 15 20 / 10%);
+    color: #20202a;
+    background: #ffc107;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    display: inline-flex;
+    height: 45px;
+    line-height: 45px;
+    font-size: 12px;
+    padding: 0 35px;
+    transition: .4s ease-in-out;
+}
+
+.Home>.Home_Banner>.Banner_Overlay>.Banner_Title>.Banner_Btn>a:hover {
+    transform: translateY(-2px);
+}
+
+.Home>.Home_Banner>.Banner_Overlay>img {
+    width: 310px;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+}
+
+@media (max-width:432px) {
+    .Home>.Home_Banner>.Banner_Overlay>.Banner_Title>.code {
+        min-height: 60px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .Home>.Home_Banner>.Banner_Overlay>.Banner_Title>h1 {
+        font-size: 30px;
+    }
+
+    .Home>.Home_Banner>.Banner_Overlay>img {
+        display: none;
+    }
+
+    .Home>.Home_Banner>.Banner_Back {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .Home {
+        margin-top: 0rem;
+    }
+
+    .Home>.Home_Banner>.Banner_Overlay {
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    .Home>.Home_Banner>.Banner_Overlay>.Banner_Title>h1 {
+        font-size: 38px;
+    }
+}
+
+
+.Home>.Home_Services>.row>.Service_Col>.card {
+    box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+    background: linear-gradient(159deg, #2d2d3a 0, #2b2b35 100%);
+}
+
+.Home>.Home_Services>.row>.Service_Col>.card>.card-body>.card-title {
+    font-size: 14px;
+    color: #fff;
+}
+
+.Home>.Home_Services>.row>.Service_Col>.card>.card-body>.card-text {
+    font-size: 13px;
+    color: #8c8c8e;
+    font-weight: 400;
+}
