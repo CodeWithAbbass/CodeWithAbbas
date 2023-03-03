@@ -133,9 +133,9 @@ const SidebarCV = () => {
           <hr className='my-4' />
 
           <ul className="p-0">
-            <li className="list-group-item"><i className='fas fa-check me-2'></i>Bootstrap, Materialize</li>
-            <li className="list-group-item"><i className='fas fa-check me-2'></i>Stylus, Sass, Less</li>
-            <li className="list-group-item"><i className='fas fa-check me-2'></i>Gulp, Webpack, Grunt</li>
+            <li className="list-group-item"><i className='fas fa-check me-2'></i>Bootstrap</li>
+            <li className="list-group-item"><i className='fas fa-check me-2'></i>Sass</li>
+            <li className="list-group-item"><i className='fas fa-check me-2'></i>NPM Packages</li>
             <li className="list-group-item"><i className='fas fa-check me-2'></i>GIT knowledge</li>
           </ul>
 

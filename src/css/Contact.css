@@ -6,8 +6,18 @@
 
 .Contact>.row>.Contact_Col>ul>li {
     font-size: 13px;
+    color: #8c8c8e;
 }
 
+.Contact>.row>.Contact_Col>ul>li>a {
+    color: #8c8c8e;
+    transition: 0.3s ease-in-out;
+    font-size: 13px;
+}
+
+.Contact>.row>.Contact_Col>ul>li>a:hover {
+    color: #cacace;
+}
 
 .Contact>form>.input_Container>input,
 .Contact>form>.input_Container>textarea {

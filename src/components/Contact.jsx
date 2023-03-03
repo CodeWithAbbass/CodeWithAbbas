@@ -14,23 +14,41 @@ const Contact = () => {
             <div className="row w-100 m-0 my-3 justify-content-between align-items-stretch">
                 <div className="col-md-4 col-lg-12 col-xl-4 text-center Contact_Col pe-md-2 pe-lg-0 pe-xl-4 px-0 my-2">
                     <ul className="list-group bg-transparent text-start p-4 rounded-0 h-100">
-                        <li className='list-group-item bg-transparent rounded-0 border-0 d-flex justify-content-between p-0 my-1'><span className='text-white'>Country:</span> <span className='text-secondary'>Pakistan</span></li>
-                        <li className='list-group-item bg-transparent rounded-0 border-0 d-flex justify-content-between p-0 my-1'><span className='text-white'>City:</span> <span className='text-secondary'>Pattoki</span></li>
-                        <li className='list-group-item bg-transparent rounded-0 border-0 d-flex justify-content-between p-0 my-1'><span className='text-white'>Area:</span> <span className='text-secondary'>Model Town</span></li>
+                        <li className='list-group-item bg-transparent rounded-0 border-0 d-flex justify-content-between p-0 my-1'>
+                            <span className='text-white'>Country:</span> <span className=''>Pakistan</span>
+                        </li>
+                        <li className='list-group-item bg-transparent rounded-0 border-0 d-flex justify-content-between p-0 my-1'>
+                            <span className='text-white'>City:</span> <span className=''>Pattoki</span>
+                        </li>
+                        <li className='list-group-item bg-transparent rounded-0 border-0 d-flex justify-content-between p-0 my-1'>
+                            <span className='text-white'>Area:</span> <span className=''>Model Town</span>
+                        </li>
                     </ul>
                 </div>
                 <div className="col-md-4 col-lg-12 col-xl-4 text-center Contact_Col pe-md-2 pe-lg-0 pe-xl-4 px-0 my-2">
                     <ul className="list-group bg-transparent text-start p-4 rounded-0 h-100">
-                        <li className='list-group-item bg-transparent rounded-0 border-0 d-flex justify-content-between p-0 my-1'><span className='text-white'>Email:</span> <span className='text-secondary'>Abbas152052@gmail.com</span></li>
-                        <li className='list-group-item bg-transparent rounded-0 border-0 d-flex justify-content-between p-0 my-1'><span className='text-white'>LinkedIn:</span> <span className='text-secondary'>@abbass-ali</span></li>
-                        <li className='list-group-item bg-transparent rounded-0 border-0 d-flex justify-content-between p-0 my-1'><span className='text-white'>Facebook:</span> <span className='text-secondary'>@abbas152052</span></li>
+                        <li className='list-group-item bg-transparent rounded-0 border-0 d-flex justify-content-between p-0 my-1'>
+                            <span className='text-white'>Email:</span> <a href="mailto:abbas152052@gmail.com" target="_blank" className=''>Abbas152052@gmail.com</a>
+                        </li>
+                        <li className='list-group-item bg-transparent rounded-0 border-0 d-flex justify-content-between p-0 my-1'>
+                            <span className='text-white'>LinkedIn:</span> <a href='https://www.linkedin.com/in/abbass-ali/' target='_blank' className=''>@abbass-ali</a>
+                        </li>
+                        <li className='list-group-item bg-transparent rounded-0 border-0 d-flex justify-content-between p-0 my-1'>
+                            <span className='text-white'>Facebook:</span> <a href='https://www.facebook.com/Abbas152052' target='_blank' className=''>@abbas152052</a>
+                        </li>
                     </ul>
                 </div>
                 <div className="col-md-4 col-lg-12 col-xl-4 text-center Contact_Col pe-md-2 pe-lg-0 pe-xl-4 px-0 my-2">
                     <ul className="list-group bg-transparent text-start p-4 rounded-0 h-100">
-                        <li className='list-group-item bg-transparent rounded-0 border-0 d-flex justify-content-between p-0 my-1'><span className='text-white'>Whatsapp:</span> <span className='text-secondary'>+92016083148</span></li>
-                        <li className='list-group-item bg-transparent rounded-0 border-0 d-flex justify-content-between p-0 my-1'><span className='text-white'>Call:</span> <span className='text-secondary'>+92016083148</span></li>
-                        <li className='list-group-item bg-transparent rounded-0 border-0 d-flex justify-content-between p-0 my-1'><span className='text-white'>Support:</span> <span className='text-secondary'>+92016083148</span></li>
+                        <li className='list-group-item bg-transparent rounded-0 border-0 d-flex justify-content-between p-0 my-1'>
+                            <span className='text-white'>Whatsapp:</span> <a href='https://wa.me/+92016083148?text=Help' target='_blank' className=''>+92016083148</a>
+                        </li>
+                        <li className='list-group-item bg-transparent rounded-0 border-0 d-flex justify-content-between p-0 my-1'>
+                            <span className='text-white'>Call:</span> <a href='tel:+92016083148' target='_blank' className=''>+92016083148</a>
+                        </li>
+                        <li className='list-group-item bg-transparent rounded-0 border-0 d-flex justify-content-between p-0 my-1'>
+                            <span className='text-white'>Support:</span> <a href='sms:+92016083148' target='_blank' className=''>+92016083148</a>
+                        </li>
                     </ul>
                 </div>
             </div>
